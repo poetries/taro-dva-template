@@ -29,7 +29,8 @@ class App extends Component {
       'pages/demos/cate/index',
       'pages/demos/cart/index',
       'pages/demos/user/index',
-      'pages/demos/echarts/echarts',
+      'pages/demos/wx-echarts/pie/index',
+      'pages/demos/wx-echarts/line/index',
       'pages/user-login/user-login',
       'pages/user-login-email/user-login-email',
       'pages/webview/webview'

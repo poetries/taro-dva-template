@@ -65,10 +65,14 @@ export default class Home extends Component {
 
         {process.env.TARO_ENV === 'weapp' &&   <Button className='btn-max-w' plain type='primary' onClick={()=>{
           Taro.navigateTo({
-            url: '/pages/demos/echarts/echarts'
+            url: '/pages/demos/wx-echarts/pie/index'
           })
-        }}>echarts演示</Button>}
-
+        }}>饼图</Button>}
+        {process.env.TARO_ENV === 'weapp' &&   <Button className='btn-max-w' plain type='primary' onClick={()=>{
+          Taro.navigateTo({
+            url: '/pages/demos/wx-echarts/line/index'
+          })
+        }}>折线图</Button>}
        
 
        <Text className='test'>{'\ue7e3'}</Text>
